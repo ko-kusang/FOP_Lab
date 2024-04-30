@@ -17,16 +17,11 @@ From the users perspective, a HPC cluster is like an everyday use computer, exce
 
 There may be different types of nodes for different types of jobs. Our HPC cluster consists of the following: 
 
-VPN Gateway, where users establish a private connection to interact with Login Node and internal HPC resources 
-
-Login Node, where users log in via SSH or Open OnDemand portal 
-
-CPU compute nodes (where majority of computations will be executed) 
-
-GPU compute nodes (for those jobs that can benefit from the massive parallel execution on Graphical Processing Unit) 
-
-Storage nodes (where the data is been stored) 
-
+- **VPN Gateway**, where users establish a private connection to interact with Login Node and internal HPC resources
+- **Login Node**, where users log in via SSH or Open OnDemand portal
+- **CPU compute nodes** (where majority of computations will be executed)
+- **GPU compute nodes** (for those jobs that can benefit from the massive parallel execution on Graphical Processing Unit)
+- **Storage nodes** (where the data is been stored)
  
 
 Figure 1 shows a brief overview of the architecture of UMHPC. 
