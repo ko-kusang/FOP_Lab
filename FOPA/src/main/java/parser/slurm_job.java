@@ -10,9 +10,6 @@ import tech.tablesaw.api.Table;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import static data_structure.data.*;
-import static formatter.time_formatter.toLocalDateTime;
-
 public class slurm_job {
     public int JobId, InitPrio, usec, uid, CPUs;
     public String job, NodeList, Partition, status;
