@@ -10,9 +10,6 @@ import tech.tablesaw.api.Table;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
-import static data_structure.data.*;
-import static formatter.time_formatter.toLocalDateTime;
-
 public class slurm_error {
     public static void add_error(String s_time, int association, String account, String user, String Partition) {
         LocalDateTime time = time_formatter.toLocalDateTime(s_time);
