@@ -3,9 +3,6 @@ package filter;
 import org.jetbrains.annotations.NotNull;
 import tech.tablesaw.api.Table;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
 public class error_filter {
     public static void err_get_by_string(@NotNull Table errors_table, String filter, String content) {
         if (errors_table.containsColumn(filter)) {
