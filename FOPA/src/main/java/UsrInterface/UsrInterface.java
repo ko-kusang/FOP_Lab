@@ -7,13 +7,6 @@ import filter.job_filter;
 import java.util.Objects;
 import java.util.Scanner;
 
-import static data_structure.data.errors;
-import static data_structure.data.jobs;
-import static filter.error_filter.err_get_by_string;
-import static filter.error_filter.err_get_by_time;
-import static filter.job_filter.job_get_by_string;
-import static filter.job_filter.job_get_by_time;
-
 public class UsrInterface {
     public static void main_page() {
         System.out.println("****************************************");
